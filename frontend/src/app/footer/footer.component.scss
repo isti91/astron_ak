@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+}
+
+.left-side {
+    display: flex;
+    flex: 1;
+    justify-content: left;
+}
+
+.footer-list {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
