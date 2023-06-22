@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+}
+
+.menu {
+    flex: 1;
+}
+
+.title {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: normal;
+}
+
+.profile {
+    flex: 1;
+}
