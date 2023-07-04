@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {MatSidenavModule} from '@angular/material/sidenav';
+import { HeaderService } from 'src/shared/services/header-service.service';
 
 @Component({
 	selector: 'astron-ak-header',
@@ -8,4 +8,11 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 })
 export class HeaderComponent {
 	headerTitle: string = 'Astron sdfsd Gépjármű Kölcsönző';
+
+	constructor(private headerService: HeaderService) {
+	}
+
+	public emitMenu(): void {
+		this.headerService.sidenavEmitter.emit();
+	}
 }
