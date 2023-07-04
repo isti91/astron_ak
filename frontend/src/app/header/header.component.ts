@@ -7,5 +7,5 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 	styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-	headerTitle: string = 'Astron Gépjármű Kölcsönző';
+	headerTitle: string = 'Astron sdfsd Gépjármű Kölcsönző';
 }
