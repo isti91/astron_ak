@@ -1,9 +1,20 @@
 <mat-toolbar>
-  <div>
-    <button mat-button (click)="toggle()">
-    Hide
-    </button>
-   </div>
-   
- </mat-toolbar>
+  <ng-container>
+    <mat-sidenav-container class="example-container">
+      <mat-sidenav #sidenav mode="side" opened class="example-sidenav">
+        <ul>
+          <li><a>Új gépjármű felvétele</a></li>
+          <li><a>Személygépkocsi kölcsönzése</a></li>
+          <li><a>Motor kölcsönzése</a></li>
+          <li><a>Utánfutó kölcsönzése</a></li>
+          <li><a>Mikrobusz kölcsönzése</a></li>
+          <li><a>Kisteherautók kölcsönzése</a></li>
+        </ul>
+      </mat-sidenav>
 
+      <mat-sidenav-content [formGroup]="options">
+        <p><button mat-button (click)="sidenav.toggle()">Toggle</button></p>
+      </mat-sidenav-content>
+    </mat-sidenav-container>
+  </ng-container>
+</mat-toolbar>
