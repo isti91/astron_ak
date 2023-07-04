@@ -1,13 +1,17 @@
-<div class="header">
+<mat-sidenav-container>
+  <mat-sidenav #sidenav class="sidenav" fixedInViewport opened mode="side">
+    <app-sidenav (sidenav)="sidenav.toggle()">asd</app-sidenav>
+    
+  </mat-sidenav>
+  <div class="header">
     <div class="menu">
-        <button mat-fab extended>
-            Menu
-          </button>
+      <button mat-fab extended>Menu</button>
     </div>
     <div class="title">{{ headerTitle }}</div>
     <div class="profile">
-        <button mat-fab extended>
-            Profil
-          </button>
+      <button mat-fab extended>Profil</button>
     </div>
-</div>
+  </div>
+</mat-sidenav-container>
+
+

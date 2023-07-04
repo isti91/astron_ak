@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import {MatSidenavModule} from '@angular/material/sidenav';
 
 @Component({
@@ -7,5 +7,9 @@ import {MatSidenavModule} from '@angular/material/sidenav';
   styleUrls: ['./sidenav.component.scss']
 })
 export class SidenavComponent {
+  @Output() sidenav: EventEmitter<any> = new EventEmitter();
 
+  toggle() {
+   this.sidenav.emit();
+   }
 }
