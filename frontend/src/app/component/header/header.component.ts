@@ -16,6 +16,7 @@ export class HeaderComponent {
 
     public emitMenu(): void {
         this.headerService.sidenavEmitter.emit();
+        console.log('CALL EMIT');
     }
 
 }
