@@ -22,6 +22,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarrentComponent } from './component/carrent/carrent.component';
 import { NewcarComponent } from './component/newcar/newcar.component';
 
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
+import { MockBackendInterceptor } from 'src/shared/interceptors/mock-backend.interceptor';
 import { LorryrentComponent } from './component/lorryrent/lorryrent.component';
 import { MicrobusrentComponent } from './component/microbusrent/microbusrent.component';
 import { MotorrentComponent } from './component/motorrent/motorrent.component';
@@ -55,8 +57,11 @@ import { TrailrentComponent } from './component/trailrent/trailrent.component';
     MatInputModule,
     BrowserAnimationsModule,
     MatIconModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    { provide: HTTP_INTERCEPTORS, useClass: MockBackendInterceptor, multi: true }
+  ],
   bootstrap: [AppComponent],
 })
-export class AppModule {}
+export class AppModule { }
