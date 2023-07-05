@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    padding-left: 350px;
+}
+
+.left-side {
+    display: flex;
+    flex: 1;
+    justify-content: left;
+}
+
+.footer-list {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
