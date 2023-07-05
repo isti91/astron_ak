@@ -17,6 +17,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatTableModule } from '@angular/material/table';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarrentComponent } from './component/carrent/carrent.component';
@@ -57,11 +58,16 @@ import { TrailrentComponent } from './component/trailrent/trailrent.component';
     MatInputModule,
     BrowserAnimationsModule,
     MatIconModule,
-    HttpClientModule
+    HttpClientModule,
+    MatTableModule,
   ],
   providers: [
-    { provide: HTTP_INTERCEPTORS, useClass: MockBackendInterceptor, multi: true }
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: MockBackendInterceptor,
+      multi: true,
+    },
   ],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
