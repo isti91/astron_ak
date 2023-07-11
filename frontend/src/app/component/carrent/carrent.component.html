@@ -1,1 +1,41 @@
+<table mat-table [dataSource]="carList">
+  <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
 
+  <!-- Position Column -->
+  <ng-container matColumnDef="licenseNumber">
+    <th mat-header-cell *matHeaderCellDef>Rendszám</th>
+    <td mat-cell *matCellDef="let element">{{ element.licenseNumber }}</td>
+  </ng-container>
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="carVintage">
+    <th mat-header-cell *matHeaderCellDef>Évjárat</th>
+    <td mat-cell *matCellDef="let element">{{ element.carVintage }}</td>
+  </ng-container>
+
+  <!-- Weight Column -->
+  <ng-container matColumnDef="carType">
+    <th mat-header-cell *matHeaderCellDef>Típusa</th>
+    <td mat-cell *matCellDef="let element">{{ element.carType }}</td>
+  </ng-container>
+
+  <!-- Symbol Column -->
+  <ng-container matColumnDef="color">
+    <th mat-header-cell *matHeaderCellDef>Autó színe</th>
+    <td mat-cell *matCellDef="let element">{{ element.color }}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="numberOfSeats">
+    <th mat-header-cell *matHeaderCellDef>Ülések száma</th>
+    <td mat-cell *matCellDef="let element">{{ element.color }}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="displacement">
+    <th mat-header-cell *matHeaderCellDef>Hengerűrtartalom</th>
+    <td mat-cell *matCellDef="let element">{{ element.numberOfSeats }}</td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+</table>

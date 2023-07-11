@@ -8,7 +8,7 @@ import { HeaderService } from 'src/shared/services/header-service.service';
 })
 export class HeaderComponent {
 
-    headerTitle: string = 'Astron sdfsd Gépjármű Kölcsönző';
+    headerTitle: string = 'Astron Gépjárműkölcsönző';
 
     constructor(
         private headerService: HeaderService) {

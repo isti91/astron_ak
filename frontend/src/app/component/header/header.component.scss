@@ -13,8 +13,26 @@
     font-weight: bold;
     font-size: 40px;
     line-height: normal;
+    background-color: blueviolet;
+    text-align: center;
+    color: whitesmoke;
 }
 
 .profile {
+    display: flex;
     flex: 1;
+    background-color: antiquewhite;
+    justify-content: right;
+    margin-right: 50px;
+}
+
+.main {
+    display: flex;
+    background-color: red;
+}
+
+mat-sidenav-container {
+    background-color: aqua;
+    width: 100%;
+    border-bottom: 5px solid black;
 }

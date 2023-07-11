@@ -1,1 +1,24 @@
-<h1>newcar works!</h1>
+<div class="form">
+  <h1>Register new car</h1>
+  <form [formGroup]="reactiveForm" (ngSubmit)="onSubmitCar()">
+    <div class="inner">
+    <label for="carName">Car name</label>
+    <input
+      type="text"
+      id="carName"
+      formControlName="carName"
+      onkeydown="event.stopPropagation()"
+    />
+
+    <label for="country">Country from</label>
+    <select id="country" formControlName="country">
+      <option value="Europe">Europe</option>
+      <option value="America">America</option>
+      <option value="Asia">Asia</option>
+    </select>
+
+    <input type="submit" value="Submit"/>
+</div>
+  </form>
+  
+</div>
