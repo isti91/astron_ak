@@ -1,1 +1,37 @@
-<p>motorrent works!</p>
+<table mat-table [dataSource]="motorList">
+  <!--- Note that these columns can be defined in any order.
+            The actual rendered columns are set as a property on the row definition" -->
+
+  <!-- Position Column -->
+  <ng-container matColumnDef="licenseNumber">
+    <th mat-header-cell *matHeaderCellDef>Rendszám</th>
+    <td mat-cell *matCellDef="let element">{{ element.licenseNumber }}</td>
+  </ng-container>
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="type">
+    <th mat-header-cell *matHeaderCellDef>Motor típus</th>
+    <td mat-cell *matCellDef="let element">{{ element.type }}</td>
+  </ng-container>
+
+  <!-- Symbol Column -->
+  <ng-container matColumnDef="displacement">
+    <th mat-header-cell *matHeaderCellDef>Motor hengerűrtartalom</th>
+    <td mat-cell *matCellDef="let element">{{ element.displacement }} m3</td>
+  </ng-container>
+
+  <ng-container matColumnDef="performance">
+    <th mat-header-cell *matHeaderCellDef>Motor teljesítménye lóerőben</th>
+    <td mat-cell *matCellDef="let element">{{ element.performance }} LE</td>
+  </ng-container>
+
+  <ng-container matColumnDef="technicalValidity">
+    <th mat-header-cell *matHeaderCellDef>Műszaki érvényessége</th>
+    <td mat-cell *matCellDef="let element">{{ element.technicalValidity }}</td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+</table>
+
+'licenseNumber', 'type', 'displacement', 'performance', 'technicalValidity',
