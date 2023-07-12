@@ -4,4 +4,5 @@ export interface LorryRentModel {
   carType: string; //típusa
   cargoVolume: number; //raktér térfogat
   technicalValidity: Date; //Műszaki érvényessége, formátum: YYYY/MM/DD
+  price: number; //Ár/Nap
 }

@@ -30,6 +30,10 @@ import { MicrobusrentComponent } from './component/microbusrent/microbusrent.com
 import { MotorrentComponent } from './component/motorrent/motorrent.component';
 import { TrailrentComponent } from './component/trailrent/trailrent.component';
 
+import { LOCALE_ID } from '@angular/core';
+import { registerLocaleData } from '@angular/common';
+import localeFr from '@angular/common/locales/fr';
+registerLocaleData(localeFr);
 @NgModule({
   declarations: [
     AppComponent,
@@ -67,6 +71,7 @@ import { TrailrentComponent } from './component/trailrent/trailrent.component';
       useClass: MockBackendInterceptor,
       multi: true,
     },
+    { provide: LOCALE_ID, useValue: 'fr-FR'},
   ],
   bootstrap: [AppComponent],
 })

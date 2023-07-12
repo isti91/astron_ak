@@ -6,5 +6,6 @@ export interface CarRentModel {
     color: string; //autó színe
     numberOfSeats: number; //ülések száma
     displacement: number; //hengerűrtartalom
+    price: number; //Ár/Nap
   }
   

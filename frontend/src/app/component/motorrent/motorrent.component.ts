@@ -14,6 +14,7 @@ export class MotorrentComponent {
     'displacement',
     'performance',
     'technicalValidity',
+    'price'
   ];
   motorList!: MotorRentModel[];
 

@@ -5,5 +5,6 @@ export interface MotorRentModel {
     displacement: number; //hengerűrtartalom
     performance:number; //Motor teljesítménye lóerőben
     technicalValidity: Date; //Műszaki érvényessége, formátum: YYYY/MM/DD
+    price: number; //Ár/Nap
   }
   

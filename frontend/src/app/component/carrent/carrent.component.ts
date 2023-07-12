@@ -9,7 +9,7 @@ import { RentalService } from 'src/shared/services/rental.service';
 })
 export class CarrentComponent implements OnInit {
 
-	displayedColumns: string[] = ['licenseNumber', 'carVintage', 'carType', 'color', 'numberOfSeats', 'displacement'];
+	displayedColumns: string[] = ['licenseNumber', 'carVintage', 'carType', 'color', 'numberOfSeats', 'displacement', 'price'];
     carList!: CarRentModel[];
 
     constructor(

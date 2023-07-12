@@ -8,7 +8,7 @@ import { LorryRentService } from 'src/shared/services/lorry-rent.service';
   styleUrls: ['./lorryrent.component.scss']
 })
 export class LorryrentComponent {
-  displayedColumns: string[] = ['licenseNumber', 'carType', 'cargoVolume', 'technicalValidity'];
+  displayedColumns: string[] = ['licenseNumber', 'carType', 'cargoVolume', 'technicalValidity', 'price'];
   lorryList!: LorryRentModel[];
 
   constructor(
