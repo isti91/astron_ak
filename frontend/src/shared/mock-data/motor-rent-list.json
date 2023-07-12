@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "licenseNumber": "ASD-123",
+        "type": "YAMAHA XJ6 Diversion",
+        "displacement": 600,
+        "performance": 76.4,
+        "technicalValidity": "2023.10.20",
+        "price": 120000
+    },
+    {
+        "id": 2,
+        "licenseNumber": "ASD-321",
+        "type": "Suzuki GSX-S750",
+        "displacement": 749,
+        "performance": 114,
+        "technicalValidity": "2025.03.12",
+        "price": 200000
+    },
+    {
+        "id": 3,
+        "licenseNumber": "IUZ-654",
+        "type": "Aprilia Pegaso 650 Strada",
+        "displacement": 660,
+        "performance": 48,
+        "technicalValidity": "2025.05.01",
+        "price": 120000
+    },
+    {
+        "id": 4,
+        "licenseNumber": "ASD-123",
+        "type": "YAMAHA XJ6 Diversion",
+        "displacement": 600,
+        "performance": 76.4,
+        "technicalValidity": "2024.03.12",
+        "price": 120000
+    },
+    {
+        "id": 5,
+        "licenseNumber": "ASD-123",
+        "type": "Suzuki GSX-S750",
+        "displacement": 749,
+        "performance": 114,
+        "technicalValidity": "2025.08.17",
+        "price": 200000
+    },
+    {
+        "id": 6,
+        "licenseNumber": "ASD-123",
+        "type": "YAMAHA XJ6 Diversion",
+        "displacement": 600,
+        "performance": 76.4,
+        "technicalValidity": "2023.12.05",
+        "price": 120000
+    },
+    {
+        "id": 7,
+        "licenseNumber": "ASD-123",
+        "type": "Aprilia Pegaso 650 Strada",
+        "displacement": 660,
+        "performance": 48,
+        "technicalValidity": "2024.11.25",
+        "price": 120000
+    },
+    {
+        "id": 8,
+        "licenseNumber": "ASD-123",
+        "type": "Suzuki GSX-S750",
+        "displacement": 749,
+        "performance": 114,
+        "technicalValidity": "2025.04.28",
+        "price": 200000
+    },
+    {
+        "id": 9,
+        "licenseNumber": "ASD-123",
+        "type": "YAMAHA XJ6 Diversion",
+        "displacement": 600,
+        "performance": 76.4,
+        "technicalValidity": "2023.12.12",
+        "price": 120000
+    },
+    {
+        "id": 10,
+        "licenseNumber": "ASD-123",
+        "type": "HONDA CB 600 F",
+        "displacement": 599,
+        "performance": 102,
+        "technicalValidity": "2025.07.06",
+        "price": 120000
+    }
+]
