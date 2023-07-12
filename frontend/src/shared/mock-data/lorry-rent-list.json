@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "licenseNumber": "ASD-123",
+        "carType": "VOLKSWAGEN CADDY COMFORT",
+        "cargoVolume": "8m3",
+        "technicalValidity": "2023.10.20",
+        "price": 130000
+    },
+    {
+        "id": 2,
+        "licenseNumber": "ASD-321",
+        "carType": "MERCEDES SPRINTER",
+        "cargoVolume": "15m3",
+        "technicalValidity": "2025.03.12",
+        "price": 180000
+    },
+    {
+        "id": 3,
+        "licenseNumber": "IUZ-654",
+        "carType": "CITROEN JUMPER",
+        "cargoVolume": "10m3",
+        "technicalValidity": "2025.05.01",
+        "price": 220000
+    },
+    {
+        "id": 4,
+        "licenseNumber": "ASD-123",
+        "carType": "MERCEDES SPRINTER",
+        "cargoVolume": "12m3",
+        "technicalValidity": "2024.03.12",
+        "price": 250000
+    },
+    {
+        "id": 5,
+        "licenseNumber": "ASD-123",
+        "carType": "VOLKSWAGEN CADDY COMFORT",
+        "cargoVolume": "20m3",
+        "technicalValidity": "2025.08.17",
+        "price": 240000
+    },
+    {
+        "id": 6,
+        "licenseNumber": "ASD-123",
+        "carType": "RENAULT KANGOO PREMIUM ",
+        "cargoVolume": "18m3",
+        "technicalValidity": "2023.12.05",
+        "price": 170000
+    },
+    {
+        "id": 7,
+        "licenseNumber": "ASD-123",
+        "carType": "FORD TRANSIT",
+        "cargoVolume": "9m3",
+        "technicalValidity": "2024.11.25",
+        "price": 220000
+    },
+    {
+        "id": 8,
+        "licenseNumber": "ASD-123",
+        "carType": "VOLKSWAGEN CADDY COMFORT",
+        "cargoVolume": "22m3",
+        "technicalValidity": "2025.04.28",
+        "price": 180000
+    },
+    {
+        "id": 9,
+        "licenseNumber": "ASD-123",
+        "carType": "RENAULT KANGOO PREMIUM ",
+        "cargoVolume": "15m3",
+        "technicalValidity": "2023.12.12",
+        "price": 160000
+    },
+    {
+        "id": 10,
+        "licenseNumber": "ASD-123",
+        "carType": "FORD TRANSIT",
+        "cargoVolume": "10m3",
+        "technicalValidity": "2025.07.06",
+        "price": 220000
+    }
+]

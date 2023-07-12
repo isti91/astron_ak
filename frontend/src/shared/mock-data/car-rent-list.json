@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "licenseNumber": "ASD-123",
+        "carVintage": 2015,
+        "carType": "OPEL Astra J",
+        "color": "black",
+        "numberOfSeats": 5,
+        "displacement": 1.7,
+        "price": 150000
+    },
+    {
+        "id": 2,
+        "licenseNumber": "ASD-321",
+        "carVintage": 2020,
+        "carType": "OPEL Astra K",
+        "color": "black",
+        "numberOfSeats": 5,
+        "displacement": 1.7,
+        "price": 130000
+    },
+    {
+        "id": 3,
+        "licenseNumber": "IUZ-654",
+        "carVintage": 2016,
+        "carType": "Mercedes Benz E",
+        "color": "white",
+        "numberOfSeats": 5,
+        "displacement": 2.0,
+        "price": 300000
+    },
+    {
+        "id": 4,
+        "licenseNumber": "ASD-123",
+        "carVintage": 2016,
+        "carType": "OPEL Astra J",
+        "color": "black",
+        "numberOfSeats": 5,
+        "displacement": 1.7,
+        "price": 150000
+    },
+    {
+        "id": 5,
+        "licenseNumber": "ASD-123",
+        "carVintage": 2015,
+        "carType": "OPEL Astra J",
+        "color": "black",
+        "numberOfSeats": 5,
+        "displacement": 1.7,
+        "price": 150000
+    },
+    {
+        "id": 6,
+        "licenseNumber": "ASD-123",
+        "carVintage": 2015,
+        "carType": "OPEL Astra J",
+        "color": "black",
+        "numberOfSeats": 5,
+        "displacement": 1.7,
+        "price": 150000
+    },
+    {
+        "id": 7,
+        "licenseNumber": "ASD-123",
+        "carVintage": 2018,
+        "carType": "OPEL Astra J",
+        "color": "black",
+        "numberOfSeats": 5,
+        "displacement": 1.7,
+        "price": 150000
+    },
+    {
+        "id": 8,
+        "licenseNumber": "ASD-123",
+        "carVintage": 2009,
+        "carType": "OPEL Astra K",
+        "color": "black",
+        "numberOfSeats": 5,
+        "displacement": 1.7,
+        "price": 150000
+    },
+    {
+        "id": 9,
+        "licenseNumber": "ASD-123",
+        "carVintage": 2014,
+        "carType": "OPEL Astra J",
+        "color": "black",
+        "numberOfSeats": 5,
+        "displacement": 1.7,
+        "price": 120000
+    },
+    {
+        "id": 10,
+        "licenseNumber": "ASD-123",
+        "carVintage": 2014,
+        "carType": "OPEL Astra J",
+        "color": "black",
+        "numberOfSeats": 5,
+        "displacement": 1.7,
+        "price": 120000
+    },
+    {
+        "id": 11,
+        "licenseNumber": "PPL-332",
+        "carVintage": 2012,
+        "carType": "Volvo S80",
+        "color": "black",
+        "numberOfSeats": 5,
+        "displacement": 1.9,
+        "price": 250000
+    },
+    {
+        "id": 12,
+        "licenseNumber": "LWE-996",
+        "carVintage": 2012,
+        "carType": "Volvo S60",
+        "color": "blue",
+        "numberOfSeats": 5,
+        "displacement": 1.9,
+        "price": 250000
+    },
+    {
+        "id": 13,
+        "licenseNumber": "UJN-741",
+        "carVintage": 2019,
+        "carType": "Nissan",
+        "color": "white",
+        "numberOfSeats": 5,
+        "displacement": 1.8,
+        "price": 220000
+    },
+    {
+        "id": 14,
+        "licenseNumber": "DER-945",
+        "carVintage": 2019,
+        "carType": "KIA",
+        "color": "red",
+        "numberOfSeats": 3,
+        "displacement": 1.6,
+        "price": 180000
+    },
+    {
+        "id": 15,
+        "licenseNumber": "ZTD-852",
+        "carVintage": 2013,
+        "carType": "Mazda",
+        "color": "grey",
+        "numberOfSeats": 5,
+        "displacement": 1.9,
+        "price": 190000
+    }
+]
